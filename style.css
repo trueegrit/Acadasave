@@ -36,6 +36,12 @@
     color: #0a042be1;
 }
 
+.herotextt{
+    color: #0a042be1;
+    padding: 0%;
+    padding-top: 20%;
+}
+
 .spectar {
     margin: 10% auto;
 }
@@ -63,7 +69,29 @@
 
 .card-header-item, .card-body-item {
     padding: 10px 13px;
+    text-align: center;
 }
+
+
+
+.whyus{
+    text-align: right;
+    font-size: 20px;
+    color: #20024e;
+}
+
+.it-text{
+   margin-top: 50%;
+}
+
+.loantext .it-text .intrest{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0px;
+    color: #4c09b8;
+    text-align: left;
+
+}
+
 
 @media screen and (max-width: 992px) {
     .card-overall-section {
@@ -80,10 +108,42 @@
     .svg2{
         margin-top: -5px;
     }
+    .loantext{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color: #4c09b8;
+        text-align:center;
+        margin-bottom:10%;
+    }
+    .loanword{
+        text-align: center;
+    }
+    
+    .whyus{
+        font-size: 20px;
+        color: #20024e;
+        text-align:center;
+        margin-bottom: 7%;
+    }
+    .loantext .whyus{
+        text-align: center;
+    }
+
+    .herotextt{
+        text-align: center;
+    }
+    .hero-imgg{
+        width: 20%;
+    }
+
+    .dawg{
+        width: 300px;
+    }
     
 }
 
-@media screen and (min-width:1000px) {
+
+@media screen and (min-width:1200px) {
     .svg1{
         margin-bottom: -5px;
         }
@@ -92,4 +152,3 @@
             margin-top: -5px;
         }
 }
-
