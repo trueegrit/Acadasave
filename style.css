@@ -8,7 +8,7 @@
 }
 
 /* styling button */
-.btn-log, .btn-sign, .btn-hero {
+.btn-log, .btn-sign, .btn-hero .btn-heroo {
     outline: none;
     border: 0;
     box-shadow: none;
@@ -16,14 +16,14 @@
     font-size: 15px;
 }
 
-.btn-sign, .btn-hero {
+.btn-sign, .btn-hero, .btn-heroo {
     padding: 8px 22px;
     background: #5000CA;
     color: #e4e2e2ed;
     border-radius: 6px;
 }
 
-.btn-hero {
+.btn-hero, .btn-heroo{
     padding: 8px 37px;
     text-transform: uppercase;
 }
@@ -78,6 +78,8 @@
     text-align: right;
     font-size: 20px;
     color: #20024e;
+    margin-top: -24%;
+    margin-right: -11%;
 }
 
 .it-text{
@@ -123,7 +125,14 @@
         font-size: 20px;
         color: #20024e;
         text-align:center;
+        margin-left: -10%;
         margin-bottom: 7%;
+        margin-top: 10%;
+    }
+
+    .btn-heroo{
+        margin-top: 0%;
+
     }
     .loantext .whyus{
         text-align: center;
