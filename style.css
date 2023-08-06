@@ -28,7 +28,7 @@
     text-transform: uppercase;
 }
 
-.btn-sign:hover {
+.btn-sign:hover .btn-hero1{
     background: #5a48c5e1;
 }
 
@@ -93,9 +93,168 @@
     text-align: left;
 
 }
+.pack{
+    margin-bottom: 10%;
+}
+
+.card-bo{
+    padding: 80px 40px;
+    background-color: rgb(251, 250, 250);
+}
+
+.cardno{
+    padding: 80px 40px;
+    background-color: rgb(251, 250, 250);
+}
+
+.cardla{
+    padding: 80px 40px;
+    background-color: rgb(251, 250, 250);
+}
 
 
-@media screen and (max-width: 992px) {
+.cardy, .card-ftbody, .card-ftbody1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-head1{
+    background-color:rgb(219, 159, 169);
+    padding: 10px;
+}
+.card-head2{
+    background-color: #5861d6;
+    padding: 10px;
+}
+
+.card-head3{
+    background-color: rgb(203, 94, 133);
+    padding: 10px;
+}
+
+.card-text1, .card-text2, .card-text3{
+    opacity: 50%;
+    margin-top: -20px;
+}
+
+.btn-hero1{
+    background: #5000CA;
+    color: #e4e2e2ed;
+    border-radius: 6px;
+    padding: 8px 37px;
+    opacity: 80%;
+
+}
+
+.qtext{
+    font-size: 30px;
+}
+
+.cardm .cardm2{
+    margin-top: -20%;
+    border-radius: 20%;
+    padding: 20% -30%;
+    color: white;
+
+}
+
+.cardt, .cardt2{
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.svgbtm1{
+    margin-top: 0%;
+    width: 110%;
+}
+
+.svgbtm2{
+    margin-top:-21%;
+    margin-bottom: 205;
+}
+
+
+.downdown{
+    background-color: #4c09b8;
+}
+
+.ftext, .ftabout{
+    opacity: 30%;
+}
+
+
+.ql{
+    font-size: 80%;
+    margin-bottom: 20%;
+}
+
+.ftabout{
+    font-size: 80%;
+
+}
+
+.ftext, .ftabout {
+    margin-top: 7%;
+}
+.social img{
+    margin-right: 15px;
+}
+
+
+.fl2{
+    background-color: aqua;
+}
+
+.fl2{
+    margin-top: 10%;
+    border-radius: 4%;
+    padding: 30px;
+    position: relative;
+    top: -300%;
+}
+
+.dwnbtn{
+    padding: 10px 50px;
+    border-radius: 7.5px;
+    border: 1px;
+    color: #4c09b8;
+    margin-top: 3%;
+    margin-right: 4%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ready{
+    font-size: 150%;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 600;
+}
+.boxft{
+    width: 50%;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.parent{
+    position: relative;
+}
+
+.acct{
+    color: white;
+}
+.downlogo{
+    margin-top: 10%;
+}
+.downtext{
+    margin-top: 10%;
+}
+.dwnbtn{
+float: right;
+}
+
+
+
+@media screen and (max-width: 992px){
     .card-overall-section {
         flex-direction: column;
     }
@@ -149,7 +308,74 @@
         width: 300px;
     }
     
+    .svgbtm1{
+        margin-top: 0%;
+        width: 100%;
+    }
+    
+    .svgbtm2{
+        margin-top:-21%;
+        width: 100%;
+    }
+
+    .itpart{
+        flex-direction:row-reverse;
+    }
+    .dncard{
+        margin-top: 10%;
+    }
+    .cardy{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .cdtest{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .qtext{
+        text-align:center;
+    }
+    .qimg .qimg2{
+        margin-top: 10%;
+    }
+    
+    .downlogo{
+        margin-top: 40%;
+        text-align: center;
+    }
+    .downtext{
+        margin-top: -20%;
+    }
+
+    .fl2{
+        background-color: aqua;
+        margin-top: -10%;
+    }
+    .dwnbtn{
+        margin-right: 15%;
+    }
+    .flogo{
+        margin-bottom: -10%;
+    }
+    .ftext{
+        margin-top: 7%;
+    }
+    .ql{
+        margin-top: 0%;
+        margin-bottom: 10%;
+        text-align: left;
+    }
+    .social{
+        margin-top: 30px;
+    }
+    .ftabout{
+        margin-top: 0%;
+        text-align: left;
+    }
+
 }
+    
 
 
 @media screen and (min-width:1200px) {
